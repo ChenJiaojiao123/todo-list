@@ -1,0 +1,21 @@
+.footer-middle{
+  margin:0;
+  padding:0;
+  cursor: pointer;
+}
+
+.footer-middle .active {
+  /* color: greenyellow; */
+  color: #85ada7;
+}
+
+.footer-middle li{
+  display: inline;
+  padding: 0 8px;
+}
+
+.footer-middle li a {
+  color: #83756f;
+  margin: 2px;
+  text-decoration: none;
+}

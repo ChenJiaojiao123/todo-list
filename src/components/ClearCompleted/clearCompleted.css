@@ -1,0 +1,9 @@
+.footer-right-show{
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  margin:0 3px 0 0;
+}
+
+.footer-right-hide{
+  opacity: 0;
+}

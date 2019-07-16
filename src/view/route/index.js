@@ -1,9 +1,10 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Index from '../index/index';
+import New from '../new/index';
+import Mobx from '../mobx/index';
 import './index.css';
-import Index from '../index';
-import New from '../new';
 
 class App extends React.Component{
 	render(){
@@ -16,9 +17,13 @@ class App extends React.Component{
 					<li className="menu">
 						<Link to="/new">New Todo</Link>
 					</li>
+					<li className="menu">
+						<Link to="/mobx">mobx</Link>
+					</li>
 				</ul>
 				<Route path="/" exact component={Index} />
 				<Route path="/new" component={New} />
+				<Route path="/mobx" component={Mobx} />
 			</Router>
 		);
 	}
