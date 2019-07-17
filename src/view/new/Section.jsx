@@ -23,8 +23,8 @@ export default class Section extends React.Component {
 	}
 
 	static getDerivedStateFromProps(props, state) {
-		console.log("props; ", props.list);
-		console.log("state; ", state.list);
+		// console.log("props; ", props.list);
+		// console.log("state; ", state.list);
 		if (JSON.stringify(props.list) !== JSON.stringify(state.lis)) {
 			return ({
 				list: props.list
