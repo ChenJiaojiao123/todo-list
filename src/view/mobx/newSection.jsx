@@ -120,7 +120,7 @@ import NewRadio from './newRadio';
 							 onKeyPress={this.saveEditInput.bind(this,item.id)}
 							 onChange={this.editInput}  
 							 onBlur={this.onSaveEdit.bind(this,item.id)} 
-							 defaultValue={item.listValue}
+							 value={item.listValue}
 							 />
 						</div>
 						<div className="todos__li-operate" 

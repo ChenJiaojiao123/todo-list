@@ -100,9 +100,10 @@ class ObservableTodoStore {
 
 		if(filterValue === "unfinished" ){
 			 tempList = unfinishedList;
-			 console.log(tempList);
+			  // console.log(toJS(tempList));
 		} else if(filterValue === "finished" ){
 			 tempList = finishedList;
+			//  console.log(tempList);
 		} else {
 			 tempList = list;
 		}

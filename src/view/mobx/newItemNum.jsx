@@ -21,8 +21,11 @@ class NewItemNum extends React.Component{
 	// 	}
   //   return tempList.length;
   // }
+
+  
  
   render(){
+  
     return (
       <div className="footer-left">
         <strong>
